@@ -1,10 +1,9 @@
 # Mandatory settings
 
 blog_theme: light # Or use dark
-name: Chalk
+name: Olasubomi Oluwalana
 paginate: 25
 url: http://chalk.nielsenramon.com
-
 
 # Optional settings
 
@@ -17,13 +16,13 @@ scrollappear_enabled: true # Change to false to disable
 tag_nav_enabled: false # Change to true if you wish to show an additional 'tag-list' navigation below the header
 theme_toggle: false # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
 social:
-  dribbble: nielsenramon # Add your Dribbble handle
+  dribbble: # Add your Dribbble handle
   facebook: # Add your Facebook handle
   flickr: # Add your Flickr handle
-  github: nielsenramon # Add your GitHub handle
+  github: Subomi # Add your GitHub handle
   linkedin: # Add your LinkedIn handle
-  twitter: nielsenramon # Add your Twitter handle
-  email: # Add your Email address
+  twitter: subomiOluwalana # Add your Twitter handle
+  email: subomioluwalana71@gmail.com
   bitcoin: # Add your Bitcoin link or address
   ethereum: # Add your Ethereum link or address
   gitlab: # Add your GitLab handle
@@ -40,13 +39,12 @@ social:
   stackoverflow: # Add your Stack Overflow ID number
   steam: # Add your Steam handle
 
-
 # Important settings (change at own risk)
 
 assets:
   plugins:
-    css: { autoprefixer: {}}
-    img: { optim: {}}
+    css: { autoprefixer: {} }
+    img: { optim: {} }
   source_maps: false
   sources:
     - _assets/icons
@@ -58,8 +56,7 @@ collections:
     output: true
     permalink: /tag/:slug/
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: my_tags
     values:

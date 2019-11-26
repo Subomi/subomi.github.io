@@ -12,5 +12,8 @@ bundle check || bundle install
 bundle update
 
 # Set up JS dependencies via Yarn.
-npm install -g yarn
+echo "Installing yarn"
+#npm install -g yarn
+
+echo "Installing assets dependencies"
 yarn install --modules-folder ./_assets/yarn
